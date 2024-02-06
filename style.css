@@ -1,0 +1,115 @@
+.attribution {
+    font-size: 12px; 
+    text-align: center;
+}
+.attribution > a { 
+    color: hsl(228, 51%, 49%); 
+}
+
+body {
+    background-color: #FFE4C9;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.3;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2 {
+    font-family: 'Young Serif',serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+.recipe-step {
+    margin: 1rem;
+}
+
+.nutricion-step {
+    margin-top: 1rem;
+}
+
+ul {
+    padding-left: 2.5rem;
+}
+
+hr {
+    margin: .5rem;
+    border: 1px solid gray;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #FFF7F1;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.recipe-img {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.recipe-information {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.description {
+    margin: 1.5rem;
+}
+
+.recipe-prep-time {
+    background-color: #ADBC9F;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.recipe-prep-time > h3 {
+    color: #6D2932;
+    margin-bottom: .75rem;
+}
+
+.recipe-prep-time > ul > li::marker{
+    color: #6D2932;
+}
+
+.ingredients > li {
+    margin-bottom: .5rem;
+}
+
+.nutrition-step .values {
+    margin-bottom: 1rem;
+}
+
+.nutrition-table .item {
+    padding: .75rem .2rem;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.nutrition-table  .item:last-child {
+    border-bottom: 0;
+}
+
+.nutrition-table  .item p:nth-child(2){
+    color: #6D2932;
+    font-weight: 700;
+}
+
+.nutrition-table  .item > * {
+    width: 100px;
+    margin-right: auto;
+}
